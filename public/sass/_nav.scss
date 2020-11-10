@@ -1,0 +1,25 @@
+.navbar {
+    background-color:$dark-blue; 
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding: 0 5%;
+        .navbar-brand{
+            color:$white;
+            .logo{
+                font-size: $lg-font;
+            }
+        }
+        .nav-list{
+            display: flex;
+            .nav-link{
+                padding-right: 10px;
+                font-size: $lg-font;
+                color:$white;
+            }
+        }
+    }
+}
+
